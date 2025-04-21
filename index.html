@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Abdulrhman khaleliah</title>
+
+</head>
+
+<button id="backToTop" title="رجوع لأعلى">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+      <path d="M19 12l-7-7-7 7M12 5v12" />
+    </svg>
+  </button>
+  
+<!-- سكربت التشغيل -->
+<script>
+  // إظهار الزر عند التمرير
+  window.onscroll = function () {
+    const btn = document.getElementById("backToTop");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // عند الضغط على الزر
+  document.getElementById("backToTop").addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+<body>
+
+
+    <header> 
+        
+        <a href="#" class="logo"> Abdulrhman</a>
+        <nav class="navigation" id="navMenu">
+            <a href="#aboutme">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact </a>
+        </nav>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </div>
+    </header>
+    <!--section one-->
+
+
+    <section class="main">
+
+        <div>
+            <h2>Hello,I'm Abdulrhman <br> <span>Computer Systems Engineer</span></h2>
+            <h3> FrontEnd Developer </h3>
+            <a href="#services" class="main-btn"> View my Services</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abdulrhman-khaleliah-1612342b4" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Abdulrhman22kh" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.facebook.com/share/1BJnt7zDBB/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://instagram.com/abdulrhman_khaleliah" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+    
+    
+            </div>
+        </div>
+      
+    </section>
+    <!--section two-->
+
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                <h3>Web Design </h3>
+                <p>Design and develop responsive websites using React <br>HTML, CSS, JS, and Bootstrap.</p>
+            </div>
+            </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div class="info">
+            <h3>Dispatching </h3>
+            <p>Coordinate truck movements and schedule loading and unloading, ensuring on-time delivery of goods. Direct trucks using tracking systems to reduce delays and improve efficiency..</p>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-headset"></i>
+            </div>
+            <div class="info">
+            <h3>Technical Support </h3>
+            <p>As a technical support specialist, I help users solve technical issues by troubleshooting problems, providing guidance, and ensuring systems, software. also Providing training on various types of new software, including ERP, POS, and others.</p>
+        </div>
+        </div>
+
+        <div class="card">
+            <div class="icon">
+                <i class='far fa-lightbulb'></i>
+            </div>
+            <div class="info">
+            <h3>Consultations </h3>
+            <p>Providing consultations on all types of projects and providing comprehensive plans on how to manage money to improve the productivity and management of these projects.  .</p>
+        </div>
+        </div>
+        
+
+    </div>
+    </section>
+<!--section three-->
+         <section class="aboutme" id="aboutme">
+        <h2 class="title"> <span>About Me</span></h2>
+
+        <div class="content">
+
+          
+            <div class="aboutme-card">
+                <div class="aboutme-icon">
+                    <i class='fas fa-user-tie'></i>
+                </div>
+                <div class="aboutme-info">
+                <h2>personal information </h2>
+                <P> Abdulrhman Salam khaleliah <br>I am 23 years old,born on 02/02/2002. I am from Tulkarm, Palestine, and I am single. </P>
+            </div>
+            </div> 
+
+            <div class="aboutme-card">
+                <div class="aboutme-icon">
+                    <i class='fas fa-user-graduate'></i>
+                </div>
+                <div class="aboutme-info">
+                <h3>Education </h3>
+                <P> I graduated from Khadouri University with a Bachelor's degree in Computer Systems Engineering with a good credentials. I also took numerous courses in my field, such as Front End, C++, and Java, as well as other fields, such as dispatching.   <br> </P>
+            </div>
+            </div>    
+            
+            <div class="aboutme-card">
+                <div class="aboutme-icon">
+                    <i class="fa fa-briefcase"></i>  
+
+                </div>
+                <div class="aboutme-info">
+                <h3>experience </h3>
+                <P> __Remotely worked as a dispatcher for Cheetah Logistics in the US for 9 months, from December 2023 to August 2024. <br>__ also worked as a service engineer for Jumbo electronic company in the UAE for 4 months, from July to December.</P>
+            </div>
+            </div>
+
+            <div class="aboutme-card">
+                <div class="aboutme-icon">
+                    <i class="fa fa-lightbulb"></i>
+
+                </div>
+                <div class="aboutme-info">
+                <h3>Technical Knowledge </h3>
+                <P> •	programming languages: C++  , java, PHP <br>
+                    •	HTML,CSS,BOOTSTRAB, java script<br>
+                    •	Database ,OOP and algorithms.<br>
+                    •	Strong problem-solving abilities<br>
+                    •	Proficient in MS Office programs<br>
+                    •	Professional in the Internet Technologies.<br>
+                    •	Professional in the dispatching in the truck world<br>
+                    </P>
+            </div>
+            </div>
+           
+            <div class="aboutme-card">
+                <div class="aboutme-icon">
+                   
+
+                    
+                    <a href="Khaleliah_CV.pdf" target="_blank">
+                        <i class="fas fa-download"></i> <span>Download My CV</span> 
+                      </a>
+                     
+                 
+                </div>
+                <div class="aboutme-info">
+
+            </div>
+            </div>
+            
+
+          </div>
+    </section>
+
+    <section class="card-contact" id="contact">
+        <h2 class="title">Let's work Together</h2>
+
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>                </div>
+                <div class="info">
+                <h3>Phone </h3>
+                <p><a href="tel:+970594674765">(+970)-594674765 </a></p>
+            </div>
+            </div>
+
+            
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>               </div>
+                <div class="info">
+                <h3>E-mail </h3>
+                <p><a href="mailto:abdulrhmankhalilia1@gmail.com">abdulrhmankhalilia1@gmail.com</a></p>
+            </div>
+            </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights@<span>Abdulrhman Khaleliah</span></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/abdulrhman-khaleliah-1612342b4" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Abdulrhman22kh" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.facebook.com/share/1BJnt7zDBB/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://instagram.com/abdulrhman_khaleliah" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+
+        </div>
+    </footer>
+
+    <script>
+       const menuToggle = document.getElementById("menuToggle");
+const navMenu = document.getElementById("navMenu");
+const icon = menuToggle.querySelector("i");
+
+menuToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+
+  // تبديل الأيقونة بين bars و times
+  icon.classList.toggle("fa-bars");
+  icon.classList.toggle("fa-times");
+});
+      </script>
+      <script>
+        // يغلق القائمة عند الضغط على رابط داخلها
+        document.querySelectorAll('#navMenu a').forEach(link => {
+          link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+            icon.classList.add('fa-bars');
+            icon.classList.remove('fa-times');
+          });
+        });
+      
+        // يغلق القائمة عند الضغط خارجها
+        document.addEventListener('click', (e) => {
+          const isClickInsideMenu = navMenu.contains(e.target);
+          const isClickOnToggle = menuToggle.contains(e.target);
+      
+          if (!isClickInsideMenu && !isClickOnToggle) {
+            navMenu.classList.remove('active');
+            icon.classList.add('fa-bars');
+            icon.classList.remove('fa-times');
+          }
+        });
+      </script>
+    
+</body>
+
+</html>
