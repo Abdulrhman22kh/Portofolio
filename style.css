@@ -46,7 +46,7 @@ section{
     padding: 100px 200px;
 }
 .main{
-   max-width:100%;
+   max-width:300%;
    height: auto;
     display: block;
     object-fit:contain;
