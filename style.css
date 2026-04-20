@@ -46,8 +46,8 @@ section{
     padding: 100px 200px;
 }
 .main{
-    width: 100%;
-    min-height: 100vh;
+   max-width: 100%;
+   height: auto;
     display: flex;
     align-items: center;
     background: url(images/467849668_8795119483928544_8600244620325723476_n.jpg) no-repeat;
