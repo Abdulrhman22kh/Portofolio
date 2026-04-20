@@ -46,7 +46,7 @@ section{
     padding: 100px 200px;
 }
 .main{
-   max-width: 100%;
+   width:300px%;
    height: auto;
     display: flex;
     align-items: center;
