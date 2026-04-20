@@ -46,16 +46,15 @@ section{
     padding: 100px 200px;
 }
 .main{
-   width:300px%;
+   max-width:100%;
    height: auto;
-    display: flex;
+    display: block;
+    object-fit:contain;
     align-items: center;
     background: url(images/467849668_8795119483928544_8600244620325723476_n.jpg) no-repeat;
 
     
-    background-position:top;
-    background-attachment: fixed;
-    font-family: andlus;
+  
 
 }
 .main h2{
