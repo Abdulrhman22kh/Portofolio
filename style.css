@@ -48,10 +48,9 @@ section{
 .main{
   
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: url(images/a4.jpg) no-repeat center center;
     background-size: cover;
-    display:flex;
     background-postion:center top;
     background-attachment:scroll;
 
