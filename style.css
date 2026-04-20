@@ -55,6 +55,8 @@ section{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment:fixed;
+    overflow-y:auto;
 
 }
 .main h2{
