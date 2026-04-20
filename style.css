@@ -52,7 +52,7 @@ section{
     background: url(images/a4.jpg) no-repeat center center;
     background-size: cover;
     background-postion:center top;
-    background-attachment:scroll;
+    background-attachment:fixed;
 
 }
 .main h2{
