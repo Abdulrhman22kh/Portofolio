@@ -49,14 +49,17 @@ section{
   
    width: 100%;
     min-height: 100vh;
+     display: flex;
+     align-items: center;
     background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
     url(images/tech.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    background-attachment:fixed;
-    overflow-y:auto;
+    background-position:top;
+    background-attachment: fixed;
+    font-family: andlus;
+    background-repeat: no-repeat;
+   
 
 }
 .main h2{
