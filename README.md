@@ -1,6 +1,7 @@
 # Abdulrhman Khaleliah - Portfolio
+## Portfolio Preview
 
-![Portfolio Banner](./assets/banner.png)
+![Portfolio Preview](./Capture.PNG)
 
 ## Overview
 
@@ -25,6 +26,4 @@ The website presents my experience in technical support, software development, a
 - Responsive Web Design
 
 ## Project Structure
-## Portfolio Preview
 
-![Portfolio Preview](./Capture.PNG)
