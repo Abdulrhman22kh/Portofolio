@@ -26,6 +26,8 @@ The website presents my experience in technical support, software development, a
 - Responsive Web Design
 
 ## Project Structure
+
+```text
 Portofolio/
 │
 ├── index.html
@@ -33,7 +35,7 @@ Portofolio/
 ├── script.js
 ├── images/
 ├── .github/
-│ └── workflows/
+│   └── workflows/
 ├── CV.pdf
 ├── Capture.PNG
 └── README.md
