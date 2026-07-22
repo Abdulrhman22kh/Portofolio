@@ -3,278 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Abdulrhman Khaleliah | Systems & Operations Console</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Abdulrhman khaleliah</title>
-
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<button id="backToTop" title="رجوع لأعلى">
-    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-      <path d="M19 12l-7-7-7 7M12 5v12" />
-    </svg>
-  </button>
-  
-<!-- سكربت التشغيل -->
-<script>
-  // إظهار الزر عند التمرير
-  window.onscroll = function () {
-    const btn = document.getElementById("backToTop");
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  };
-
-  // عند الضغط على الزر
-  document.getElementById("backToTop").addEventListener("click", function () {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-</script>
-
 <body>
 
+    <!-- Dynamic System Glow Background -->
+    <div class="bg-glow blob-amber"></div>
+    <div class="bg-glow blob-green"></div>
 
-    <header> 
-        
-        <a href="#" class="logo"> Abdulrhman</a>
-        <nav class="navigation" id="navMenu">
-            <a href="#aboutme">About Me</a>
-            <a href="#services">Specialties</a>
-            <a href="#contact">Contact </a>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#" class="logo"><span class="sys-prefix">SYS://</span>Abdulrhman<span>.ops</span></a>
+        <nav class="nav-links" id="navMenu">
+            <a href="#about" class="active">// Overview</a>
+            <a href="#skills">// Stack</a>
+            <a href="#experience">// System Logs</a>
+            <a href="#services">// Capabilities</a>
+            <a href="#contact" class="nav-cta">Connect_</a>
         </nav>
         <div class="menu-toggle" id="menuToggle">
-            <i class="fas fa-bars"></i>
-          </div>
+            <i class="fas fa-terminal"></i>
+        </div>
     </header>
-    <!--section one-->
 
-
-    <section class="main">
-
-        <div>
-            <h2>Hello,I'm Abdulrhman <br> <span>Computer Systems Engineer</span></h2>
-            <h3> Technical Support Engineer | IT Operations </h3>
-            <a href="#services" class="main-btn"> Professional Breakdown</a>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/abdulrhman-khaleliah-1612342b4" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Abdulrhman22kh" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                <a href="https://www.facebook.com/share/1BJnt7zDBB/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://instagram.com/abdulrhman_khaleliah" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-    
-    
-            </div>
-        </div>
-      
-    </section>
-    <!--section two-->
-
-
-    <section class="cards" id="services">
-        <h2 class="title">What I Do</h2>
-
-        <div class="content">
-
-           <div class="card">
-            <div class="icon">
-                <i class="fas fa-headset"></i>
-            </div>
-            <div class="info">
-            <h3>Technical Support & System Assistance </h3>
-            <p>Deliver end-user technical support by identifying, troubleshooting, and resolving hardware and software issues.
-Ensure system stability and user satisfaction through effective problem-solving and clear communication.
-Conduct training on business applications including ERP, POS, and related enterprise systems..</p>
-        </div>
-        </div>
-
-        <div class="card">
-            <div class="icon">
-                <i class="fa-solid fa-truck-fast"></i>
-            </div>
-            <div class="info">
-            <h3>Dispatching Operations </h3>
-            <p>Manage and coordinate truck movements, scheduling loading/unloading activities to ensure on-time delivery and operational efficiency.
-Monitor fleet performance using tracking systems to minimize delays and optimize logistics flow..</p>
-        </div>
-        </div>
-
-     
-    <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-code"></i>
-                </div>
-                <div class="info">
-                <h3>Frontend Development </h3>
-                <p>Build responsive and interactive web interfaces with a focus on performance, usability, and clean UI design.
-Technologies: React, JavaScript, HTML5, CSS3, Bootstrap.</p>
-            </div>
-            </div>
-       
-        
-
+    <!-- Top Operations Status Bar -->
+    <div class="sys-status-bar">
+        <div class="status-item"><span class="status-indicator online"></span> TELECOM OPS: ONLINE</div>
+        <div class="status-item"><span class="status-indicator online"></span> INCIDENT RESPONSE: ACTIVE</div>
+        <div class="status-item"><span class="status-indicator warning"></span> AVAILABILITY: IMMEDIATE HIRING</div>
     </div>
-    </section>
-<!--section three-->
-         <section class="aboutme" id="aboutme">
-        <h2 class="title"> <span>About Me</span></h2>
 
-        <div class="content">
-
-          
-            <div class="aboutme-card">
-                <div class="aboutme-icon">
-                    <i class='fas fa-user-tie'></i>
-                </div>
-                <div class="aboutme-info">
-                <h2>personal information </h2>
-                <P> Nationality: Palestinian <br> 
- 					Address: Deir Al-Ghusun, Tulkarm, Palestine <br>PD:02/02/2002  </P>
-            </div>
-            </div> 
-
-            <div class="aboutme-card">
-                <div class="aboutme-icon">
-                    <i class='fas fa-user-graduate'></i>
-                </div>
-                <div class="aboutme-info">
-                <h3>Education </h3>
-                <P> Bachelor of Computer Systems Engineering_ Palestine Technical University Kadoorie PTUK (2019 – 2024) 
-
-   <br> </P>
-            </div>
-            </div>    
-            
-            <div class="aboutme-card">
-                <div class="aboutme-icon">
-                    <i class="fa fa-briefcase"></i>  
-
-                </div>
-                <div class="aboutme-info">
-                <h3>experience </h3>
-                <P>CHEETAH LOGISTICS (USA) – Remote Dispatcher | Dec 2023 – Aug 2024<br>
-              JAWWAL – Technical Support Engineer | Sep 2024 – Present.</P>
-   
-            </div>
-            </div>
-
-            <div class="aboutme-card">
-                <div class="aboutme-icon">
-                    <i class="fa fa-lightbulb"></i>
-
-                </div>
-                <div class="aboutme-info">
-                <h3>Technical Skills </h3>
-                <P> •Technical Support & System Troubleshooting <br>
-					•Software & Application Handling <br>
-					•Data Analysis & Reporting <br>
-					•Process Optimization <br>
-					•System Monitoring & Performance Tracking <br>
-					•Customer Systems & CRM Tools <br>
-					•Basic Networking & Connectivity <br>
-					•Mobile & Web Technologies <br>
-					•Problem Solving & Critical Thinking <br>
-					•Documentation & Technical Writing <br>
-                    </P>
-            </div>
-            </div>
-           
-            <div class="aboutme-card">
-                <div class="aboutme-icon">
-                   
-
-                    
-                    <a href="JAWWAL_TEchnical Support Engineer _CV.pdf" target="_blank">
-                        <i class="fas fa-download"></i> <span>Download My CV</span> 
-                      </a>
-                     
-                 
-                </div>
-                <div class="aboutme-info">
-
-            </div>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-tag">
+                <span class="status-indicator online"></span> SYSTEM READY — ALL METRICS NOMINAL
             </div>
             
+            <h1 class="sys-heading">
+                Abdulrhman Khaleliah<br>
+                <span class="typewriter-text" id="typewriter"></span><span class="cursor-blink">_</span>
+            </h1>
 
-          </div>
-    </section>
-
-    <section class="card-contact" id="contact">
-        <h2 class="title">Let's work Together</h2>
-
-        <div class="content">
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-phone"></i>                </div>
-                <div class="info">
-                <h3>Phone </h3>
-                <p><a href="tel:+970594674765">(+970)594674765 </a></p>
-            </div>
-            </div>
-
+            <p class="hero-subtitle">
+                Bridging technical infrastructure, IT operations, and mission-critical support. Specialized in system uptime, network troubleshooting, and reliable technical solutions.
+            </p>
             
-        <div class="content">
-
-            <div class="card">
-                <div class="icon">
-                    <i class="fa-solid fa-envelope"></i>               </div>
-                <div class="info">
-                <h3>E-mail </h3>
-                <p><a href="mailto:abdulrhmankhalilia1@gmail.com">abdulrhmankhalilia1@gmail.com</a></p>
-            </div>
+            <div class="hero-actions">
+                <a href="#contact" class="btn primary-btn">
+                    <i class="fas fa-terminal"></i> <span>Initialize Contact</span>
+                </a>
+                <a href="CV.pdf" target="_blank" class="btn glass-btn">
+                    <i class="fas fa-download"></i> <span>Fetch Resume.pdf</span>
+                </a>
             </div>
 
-    </section>
-
-    <footer class="footer">
-        <p class="footer-title">Copyrights@<span>Abdulrhman Khaleliah</span></p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/abdulrhman-khaleliah-1612342b4" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Abdulrhman22kh" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                <a href="https://www.facebook.com/share/1BJnt7zDBB/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="https://instagram.com/abdulrhman_khaleliah" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-
+            <div class="social-bar">
+                <a href="https://www.linkedin.com/in/abdulrhman-khaleliah-1612342b4" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Abdulrhman22kh" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:abdulrhmankhalilia1@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.facebook.com/share/1BJnt7zDBB/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
         </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-header">
+            <span class="section-badge">[01_OVERVIEW]</span>
+            <h2 class="section-title">Engineered for Efficiency</h2>
+        </div>
+        
+        <div class="about-grid">
+            <div class="about-text glass-panel">
+                <p>
+                    Technology professional with expertise in telecommunications, network operations, and mission-critical technical support, delivering reliable solutions in high-demand operational environments. Specialized in advanced incident management, complex troubleshooting, root cause analysis, and service optimization, with a strong focus on operational excellence and business continuity.
+                </p>
+                <p>
+                    Recognized for combining technical expertise with strategic problem-solving, analytical decision-making, and a results-driven mindset to resolve complex challenges, improve operational performance, and enhance customer experience. Experienced in collaborating with cross-functional teams, streamlining support processes, and driving continuous service improvement through efficiency, quality, and innovation.
+                </p>
+                <p>
+                    Passionate about leveraging technology to create measurable business value, optimize operational resilience, and contribute to organizations that prioritize innovation, scalability, and long-term growth. Committed to continuous professional development and delivering impactful solutions that align technology with business objectives.
+                </p>
+            </div>
+
+            <!-- Terminal / Operations Console -->
+            <div class="terminal-widget glass-panel">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">live_monitor.sh</span>
+                </div>
+                <div class="terminal-body">
+                    <p><span class="prompt">khaleliah@ops-console:~$</span> fetch status</p>
+                    <p class="output-green">[200 OK] Telecom Network Support: RUNNING</p>
+                    <p class="output-green">[200 OK] Root Cause Analysis: ACTIVE</p>
+                    <p class="output-amber">[INFO] Infrastructure Reliability: 99.9%</p>
+                    <p><span class="prompt">khaleliah@ops-console:~$</span> echo $CORE_VALUES</p>
+                    <p class="output-cyan">"Business Continuity, System Uptime, Strategic Execution"</p>
+                    <p><span class="prompt">khaleliah@ops-console:~$</span> <span class="blink">_</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tech Stack -->
+    <section class="section" id="skills">
+        <div class="section-header">
+            <span class="section-badge">[02_TECHNICAL_STACK]</span>
+            <h2 class="section-title">System Capabilities</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category glass-panel">
+                <h3><i class="fas fa-server"></i> Systems & IT Ops</h3>
+                <ul class="tag-list">
+                    <li>System Diagnostics</li>
+                    <li>Enterprise ERP / POS</li>
+                    <li>IT Support & Incident Ops</li>
+                    <li>Network Connectivity</li>
+                    <li>Troubleshooting</li>
+                </ul>
+            </div>
+
+            <div class="skill-category glass-panel">
+                <h3><i class="fas fa-code"></i> Frontend Architecture</h3>
+                <ul class="tag-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>Bootstrap / Tailwind</li>
+                    <li>Git / Version Control</li>
+                </ul>
+            </div>
+
+            <div class="skill-category glass-panel">
+                <h3><i class="fas fa-sitemap"></i> Process & Logistics</h3>
+                <ul class="tag-list">
+                    <li>Fleet Tracking Ops</li>
+                    <li>Workflow Optimization</li>
+                    <li>Root Cause Analysis</li>
+                    <li>Technical Writing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience as System Operations Logs -->
+    <section class="section" id="experience">
+        <div class="section-header">
+            <span class="section-badge">[03_DEPLOYMENT_LOGS]</span>
+            <h2 class="section-title">Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item glass-panel">
+                <div class="timeline-meta">
+                    <span class="status-tag tag-running">[RUNNING]</span>
+                    <span class="role">Technical Support Engineer</span>
+                    <span class="company">@ Jawwal</span>
+                    <span class="date">Sep 2024 – PRESENT</span>
+                </div>
+                <div class="timeline-body">
+                    <p>Provide end-to-end technical support across internal systems and customer services. Manage troubleshooting workflows, software application stability, and resolve system anomalies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item glass-panel">
+                <div class="timeline-meta">
+                    <span class="status-tag tag-completed">[COMPLETED]</span>
+                    <span class="role">Remote Dispatcher</span>
+                    <span class="company">@ Cheetah Logistics (USA)</span>
+                    <span class="date">Dec 2023 – Aug 2024</span>
+                </div>
+                <div class="timeline-body">
+                    <p>Coordinated logistics operations, monitored fleet movements, managed load schedules, and maintained live data synchronization to minimize operational delays.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Specialties -->
+    <section class="section" id="services">
+        <div class="section-header">
+            <span class="section-badge">[04_SERVICES]</span>
+            <h2 class="section-title">Specialized Operations</h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card glass-panel">
+                <div class="icon-wrapper"><i class="fas fa-headset"></i></div>
+                <h3>Technical Support & ERP</h3>
+                <p>System stability enforcement, hardware/software diagnostics, and incident resolution for enterprise platforms.</p>
+            </div>
+
+            <div class="service-card glass-panel">
+                <div class="icon-wrapper"><i class="fas fa-network-wired"></i></div>
+                <h3>Network & Fleet Logistics</h3>
+                <p>Streamlining dispatch workflows, real-time tracking operations, and maintaining process continuity.</p>
+            </div>
+
+            <div class="service-card glass-panel">
+                <div class="icon-wrapper"><i class="fas fa-laptop-code"></i></div>
+                <h3>Web Interfaces</h3>
+                <p>Building intuitive, highly responsive front-end interfaces optimized for speed and clarity.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="contact-box glass-panel">
+            <div class="availability-status">
+                <span class="status-indicator online"></span> CHANNEL ACTIVE: AVAILABLE FOR NEW ROLES
+            </div>
+
+            <h2>Initialize Communication</h2>
+            <p>Ready to discuss technical roles, system operations, or engineering collaborations. Send a message directly to my console.</p>
+            
+            <form class="contact-form" id="contactForm" onsubmit="return false;">
+                <div class="form-group-row">
+                    <input type="text" placeholder="Sender Name" required class="form-input">
+                    <input type="email" placeholder="Sender Email" required class="form-input">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Write payload message..." rows="4" required class="form-input"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">
+                    <span>Transmit Message</span> <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+
+            <div class="contact-methods">
+                <a href="mailto:abdulrhmankhalilia1@gmail.com" class="contact-pill">
+                    <i class="fas fa-envelope"></i> abdulrhmankhalilia1@gmail.com
+                </a>
+                <a href="tel:+970594674765" class="contact-pill">
+                    <i class="fas fa-phone"></i> (+970) 594-674-765
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>[SYS_LOG] &copy; 2026 Abdulrhman Khaleliah. Built with Code & Operations Logic.</p>
     </footer>
 
-    <script>
-       const menuToggle = document.getElementById("menuToggle");
-const navMenu = document.getElementById("navMenu");
-const icon = menuToggle.querySelector("i");
+    <button id="backToTop" class="back-to-top" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
-menuToggle.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
+    <!-- Amber System Dot Cursor -->
+    <div class="custom-cursor-dot"></div>
 
-  // تبديل الأيقونة بين bars و times
-  icon.classList.toggle("fa-bars");
-  icon.classList.toggle("fa-times");
-});
-      </script>
-      <script>
-        // يغلق القائمة عند الضغط على رابط داخلها
-        document.querySelectorAll('#navMenu a').forEach(link => {
-          link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-            icon.classList.add('fa-bars');
-            icon.classList.remove('fa-times');
-          });
-        });
-      
-        // يغلق القائمة عند الضغط خارجها
-        document.addEventListener('click', (e) => {
-          const isClickInsideMenu = navMenu.contains(e.target);
-          const isClickOnToggle = menuToggle.contains(e.target);
-      
-          if (!isClickInsideMenu && !isClickOnToggle) {
-            navMenu.classList.remove('active');
-            icon.classList.add('fa-bars');
-            icon.classList.remove('fa-times');
-          }
-        });
-      </script>
-    
+    <script src="script.js"></script>
 </body>
-
 </html>
