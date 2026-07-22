@@ -25,3 +25,6 @@ The website presents my experience in technical support, software development, a
 - Responsive Web Design
 
 ## Project Structure
+## Portfolio Preview
+
+![Portfolio Preview](./Capture.PNG)
